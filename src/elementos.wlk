@@ -1,7 +1,8 @@
 object castillo {
-var defensa = 150
-method recibirAtaque(unValor){
-defensa = 0.max(defensa - unValor)
+	var defensa = 150
+
+	method recibirAtaque(unValor){
+		defensa = 0.max(defensa - unValor)
 }
 method recibirTrabajo(){
 defensa = 200.min(defensa + 20)

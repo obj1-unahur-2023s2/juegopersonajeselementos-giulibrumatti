@@ -1,9 +1,12 @@
 object ballesta{
 	var flechas = 10
-method estaCargada() = flechas > 0
-method potencia() = 4
-method usar(){
-flechas --
+
+	method estaCargada() = flechas > 0
+	method potencia() = 4
+	
+	method usar(){
+		
+		flechas --
 }
 }
 object jabalina{
