@@ -7,7 +7,7 @@ object ballesta{
 	method usar(){
 		
 		flechas --
-}
+	}
 }
 object jabalina{
 var estaCargada = true
